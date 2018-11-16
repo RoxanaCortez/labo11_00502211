@@ -15,7 +15,7 @@
   $task->setTask($data->task);
   $task->setDateTask($data->date);
 
-  /creamo un objeto de tipo TaskDao
+  //creamo un objeto de tipo TaskDao
   $dao = new TaskDao();
 
   /*Validamos si los datos fueron insertados de forma correcta*/
